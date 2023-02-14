@@ -6,14 +6,14 @@ var jsonVal = {
     "day": 1,
   },
   "reviews": [
-    {"score": 4.5, "review": "The pizza was amazing!"},
-    {"score": 5.0, "review": "Very friendly staff, excellent service!"}
+    {"score": 4.5, "review": "This is amazing!"},
+    {"score": 5.0, "review": "excellent service!"}
   ],
   "address": {
     "city": "City",
     "reviews": [
-      {"score": 4.5, "review": "The pizza was amazing!"},
-      {"score": 5.0, "review": "Very friendly staff, excellent service!"}
+      {"score": 4.5, "review": "This is amazing!"},
+      {"score": 5.0, "review": "excellent service!"}
     ],
     "code": {
       "postcode": 123,
