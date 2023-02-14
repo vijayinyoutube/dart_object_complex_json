@@ -28,7 +28,9 @@ class MyHomePage extends StatelessWidget {
     var temp = await HomePageRepo().getData();
     print(temp.dob['year']);
     print(temp.address['city']);
+    print(jsonDecode(jsonEncode(temp.address['reviews']))[0]['score']);
     Object? temp1 = temp.address['code'];
     print(jsonDecode(jsonEncode(temp1))['postcode']);
+    print(temp.reviews[0]['score']);
   }
 }
